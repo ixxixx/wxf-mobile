@@ -1,0 +1,104 @@
+body,
+html,
+body,
+div,
+span,
+a,
+input,
+img,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+p,
+strong,
+em,
+del,
+ins,
+i,
+header,
+nav,
+footer {
+  margin: 0;
+  padding: 0;
+}
+div {
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+input {
+  border: none;
+  outline: none;
+}
+img {
+  border: none;
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+i,
+em {
+  font-style: normal;
+}
+body {
+  line-height: 100%;
+  font-family: "Microsoft YaHei";
+  padding-bottom: 172px;
+}
+.clearfix::after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.clearfix {
+  *zoom: 1;
+}
+html {
+  background-color: #dedede;
+}
+.van-notify {
+  height: 80px;
+  color: #fff;
+  font-size: 46px !important;
+  line-height: 1.4 !important;
+}
+.van-toast {
+  width: 300px;
+  font-size: 36px;
+  height: 180px;
+  line-height: 50px;
+  border-radius: 30px;
+}
+.van-dialog {
+  width: 600px;
+  height: 300px;
+}
+.van-dialog .van-dialog__header {
+  font-size: 46px;
+  height: 60px;
+  line-height: 60px;
+}
+.van-dialog .van-dialog__content {
+  height: 180px;
+}
+.van-dialog .van-dialog__content .van-dialog__message {
+  margin-top: 25px;
+  font-size: 42px;
+  line-height: 60px;
+}
+.van-dialog .van-button {
+  height: 100px;
+  font-size: 40px;
+}
+.van-loading__spinner {
+  width: 100px;
+  height: 100px;
+}

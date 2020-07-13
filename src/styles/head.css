@@ -1,0 +1,61 @@
+.head {
+  position: fixed;
+  width: 100%;
+  height: 155px;
+  background-color: #4d4d4d;
+  border-bottom: 1px solid #7b7b7b;
+  line-height: 100%;
+  z-index: 2;
+}
+.head .left {
+  position: absolute;
+  width: 100%;
+  height: 52px;
+  bottom: 50px;
+  color: #fff;
+  font-size: 48px;
+  line-height: 48px;
+  padding-left: 32px;
+}
+.head .left span {
+  float: left;
+}
+.head .left .van-icon-arrow-down {
+  position: absolute;
+  right: 200px;
+  font-size: 62px;
+}
+.head .left .van-icon-cross {
+  position: absolute;
+  right: 50px;
+  font-size: 60px;
+}
+.head .title {
+  position: absolute;
+  height: 54px;
+  left: 390px;
+  bottom: 50px;
+  font-size: 54px;
+  line-height: 54px;
+  font-weight: 600;
+  color: #f00;
+  letter-spacing: 5px;
+}
+.head .right-wz {
+  position: absolute;
+  height: 32px;
+  bottom: 55px;
+  right: 29px;
+  color: #fff;
+  font-size: 32px;
+  line-height: 32px;
+}
+.head .right-ico {
+  position: absolute;
+  width: 60px;
+  height: 55px;
+  bottom: 40px;
+  right: 30px;
+  color: #fff;
+  font-size: 50px;
+}
